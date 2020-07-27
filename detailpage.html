@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Detail</title>
+  <link rel="stylesheet" href="css/detailpage.css">
+</head>
+<body>
+  <div id="container">
+    <div id="logo">
+      <img src="images/logo.png" id="logoPoke">
+    </div>
+    <button id="navigationPrevious" class="btnPrevious">
+      <span class="previous"><< Previous</span>
+    </button>
+    <div id="detailPokemon">
+      <div class="column" id="columnNameId">
+        <div id="pokemonId" class="border_radius">
+          <span></span>
+        </div>
+        <div id="pokemonName" class="border_radius">
+          <span></span>
+        </div>
+      </div>
+      <div class="column" id="columnImg">
+        <div id="pokemonImg" class="border_radius">
+          <img>
+        </div>
+      </div>
+      <div class="column" id="columnType">
+        <span>Type</span>
+        <div id="pokemonType"class="border_radius">
+          <div class="type border_radius" data-id="0">
+            <span></span>
+          </div>
+          <div class="type border_radius" data-id="1">
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="column" id="columnAbilities">
+        <span>Abilities</span>
+        <div id="pokemonAbilities" class="border_radius">
+          <div class="abilities" data-id="0">
+            <span></span>
+          </div>
+          <div class="abilities" data-id="1">
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="column" id="columnBaseStats">
+        <span>Base Stats</span>
+        <div id="innerColumn">
+          <div id="speed" class="innerColumnStats">
+            <div class="baseStats" data-id="0">
+              <span></span>
+              <div class="statName" data-id="0">
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div id="specialDef" class="innerColumnStats">
+            <div class="baseStats" data-id="1">
+              <span></span>
+              <div class="statName" data-id="1">
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div id="specialAtk" class="innerColumnStats">
+            <div class="baseStats" data-id="2">
+              <span></span>
+              <div class="statName" data-id="2">
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div id="defense" class="innerColumnStats">
+            <div class="baseStats" data-id="3">
+              <span></span>
+              <div class="statName" data-id="3">
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div id="attack" class="innerColumnStats">
+            <div class="baseStats" data-id="4">
+              <span></span>
+              <div class="statName" data-id="4">
+                <span></span>
+              </div>
+            </div>
+          </div>
+          <div id="hp" class="innerColumnStats">
+            <div class="baseStats" data-id="5">
+              <span></span>
+              <div class="statName" data-id="5">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button id="navigationNext" class="btnNext">
+      <span class="next">Next >></span>
+    </button>
+  </div>
+<script src="js/jquery.js"></script>
+<script src="js/detail.js"></script>
+</body>
+</html>
